@@ -3,6 +3,7 @@
 using namespace std;
 int main() {
     string s;
+    cout << "Enter a string: ";
     getline(cin, s);
     int v=0, c=0;
     for(char ch : s) {
@@ -12,5 +13,5 @@ int main() {
             else c++;
         }
     }
-    cout << "Vowels: " << v << "\nConsonants: " << c;
+    cout << "Vowels: " << v << "\nConsonants: " << c << endl;
 }
