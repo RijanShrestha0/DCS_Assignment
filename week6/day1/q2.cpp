@@ -5,7 +5,7 @@ void someAlgorithm(int n){
      int result = i * 2;
    }
 
-   std::cout << "Algorithm finished for n = " << n << std::endl;
+   std::cout << "Algorithm finished for n is" << n << std::endl;
 }
 
 int main(){
